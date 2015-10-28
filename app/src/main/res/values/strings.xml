@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Шоппозиционер</string>
+
+    <string name="unit_prompt">Единица измерения:</string>
+    <string name="unit_kilogram">килограмм</string>
+    <string name="unit_kilogram_short">кг</string>
+    <string name="unit_piece">штука</string>
+    <string name="unit_piece_short">шт.</string>
+    <string name="unit_litre">литр</string>
+    <string name="unit_litre_short">л</string>
+    <string name="unit_ten">десяток</string>
+    <string name="unit_ten_short">дес.</string>
+    
+    <string name="unit_format_integer">%1$.0f %2$s</string>
+    <string name="unit_format_float">%1$.2f %2$s</string>
+
+    <string name="grocery_beef">Говядина</string>
+    <string name="grocery_icecream">Мороженое</string>
+    <string name="grocery_bread">Хлеб</string>
+    <string name="grocery_butter">Масло</string>
+    <string name="grocery_oil">Подс. масло</string>
+    <string name="grocery_tomatoes">Помидоры</string>
+    <string name="grocery_potatoes">Картофель</string>
+    <string name="grocery_apples">Яблоки</string>
+    <string name="grocery_bananas">Бананы</string>
+    <string name="grocery_pears">Груши</string>
+    <string name="grocery_eggs">Яйца</string>
+
+    <string name="dialog_add_title">Добавление товара</string>
+    <string name="dialog_add_name">Название</string>
+    <string name="dialog_add_quantity">Количество</string>
+    <string name="dialog_add_qty_type">Единица измерения</string>
+    <string name="dialog_add_btn_add">Добавить</string>
+    <string name="dialog_add_btn_cancel">Отмена</string>
+
+    <string name="context_edit">Редактировать</string>
+    <string name="context_delete">Удалить</string>
+
+    <string name="action_sort_by_name">Сортировать по названию</string>
+    <string name="action_sort_by_timestamp">Сортировать по порядку добавления</string>
+    <string name="action_sort_by_checked">Поместить отмеченные в конец</string>
+    <string name="action_clear">Очистить</string>
+    <string name="action_randomize">Заполнить случайными товарами</string>
+    <string name="action_save">Сохранить</string>
+    <string name="action_load">Загрузить</string>
+    <string name="action_set_budget">Задать бюджет</string>
+
+    <string name="dialog_budget_hint">Сумма бюджета на покупки</string>
+
+    <string name="notification_status_text">Совершено покупок: %1$s/%2$s</string>
+
+    <string name="text_budget">Бюджет: %1$.2f</string>
+
+
+</resources>

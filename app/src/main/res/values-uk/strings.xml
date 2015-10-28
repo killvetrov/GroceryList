@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Шоппозиціонер</string>
+    <string name="action_sort_by_timestamp"></string>
+    <string name="action_clear">Очистити</string>
+    <string name="action_load">Загрузити</string>
+    <string name="action_randomize">Заполнити випадковими товарами</string>
+</resources>

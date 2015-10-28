@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="context_grocery_array">
+        <item>@string/context_edit</item>
+        <item>@string/context_delete</item>
+    </string-array>
+</resources>

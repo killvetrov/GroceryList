@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".GroceryListActivity">
+    <item android:id="@+id/action_sort_by_name" android:title="@string/action_sort_by_name" />
+    <item android:id="@+id/action_sort_by_timestamp" android:title="@string/action_sort_by_timestamp" />
+    <item android:id="@+id/action_sort_by_checked" android:title="@string/action_sort_by_checked" />
+    <item android:id="@+id/action_clear" android:title="@string/action_clear" />
+    <item android:id="@+id/action_randomize" android:title="@string/action_randomize" />
+    <item android:id="@+id/action_save" android:title="@string/action_save" />
+    <item android:id="@+id/action_load" android:title="@string/action_load" />
+    <item android:id="@+id/action_set_budget" android:title="@string/action_set_budget" />
+
+</menu>

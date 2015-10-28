@@ -1,0 +1,107 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="start" android:id="@+id/drwl_root" >
+
+
+    <!-- The main content view -->
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".GroceryListActivity">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:orientation="horizontal"
+                android:id="@+id/ll_top">
+
+                <TextView
+                    android:layout_weight="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="6dp"
+                    android:text="Бюджет"
+                    android:id="@+id/tv_sum"/>
+
+                <ProgressBar
+                    android:layout_weight="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_margin="10dp"
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:id="@+id/pbar_budget_used" />
+
+                <TextView
+                    android:layout_weight="2.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:gravity="right"
+                    android:text="Всего"
+                    android:textAlignment="gravity"
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/tv_budget"/>
+            </LinearLayout>
+
+            <GridView
+                android:layout_below="@id/ll_top"
+
+                android:gravity="bottom"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/gv_groceries"
+                android:horizontalSpacing="3dp"
+                android:verticalSpacing="3dp"
+                android:overScrollMode="ifContentScrolls"
+                android:numColumns="3"></GridView>
+
+            <Button
+                android:layout_width="@dimen/float_button_size"
+                android:layout_height="@dimen/float_button_size"
+                android:layout_alignRight="@id/gv_groceries"
+                android:layout_alignBottom="@id/gv_groceries"
+                android:layout_margin="@dimen/float_button_margin"
+                android:text="+"
+                android:textSize="@dimen/float_button_plus_size"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:background="@drawable/round_button"
+                android:id="@+id/btn_float_plus" />
+
+            <ImageView
+                android:layout_width="@dimen/float_button_size"
+                android:layout_height="@dimen/float_button_size"
+                android:background="@drawable/round_button_shadow"
+                android:layout_alignLeft="@id/btn_float_plus"
+                android:layout_alignTop="@id/btn_float_plus"
+                android:layout_margin="2dp"
+                android:id="@+id/iv_shadow"/>
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+
+    <!-- The navigation drawer -->
+    <FrameLayout
+        android:id="@+id/content_drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/background_material_light">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_gravity="center" android:text="Close"
+            android:id="@+id/lv_categories" />
+
+    </FrameLayout>
+
+</android.support.v4.widget.DrawerLayout>
